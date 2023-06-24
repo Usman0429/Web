@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+}
+
+.heading1{
+    text-align: center;
+    color: chartreuse;
+
+}
+button{
+    justify-items: center;
+    justify-content: center;
+    color:orangered;
+    border: none;
+    background-color: aqua;
+}
