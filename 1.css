@@ -7,8 +7,29 @@ body{
     padding-left: 1%;
     padding-top: 1%;
 }
+.profile{
+    margin:1%;
+    width: 8%;
+    border-radius: 50%;
+    border-color: rgb(255, 255, 255);
+    border-width: 100%;
+    border-style:ridge
+}
 
 .nav, ul, li{
     list-style-type: none;
-    
+    position: relative;
+}
+.home{
+    text-decoration: none;
+
+}
+.about{
+    text-decoration: none;
+}
+.products{
+    text-decoration: none;
+}
+.contact{
+    text-decoration: none;
 }
