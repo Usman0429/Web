@@ -19,6 +19,7 @@ body{
 .nav, ul, li{
     list-style-type: none;
     position: relative;
+    font-size: 130%;
 }
 .home{
     text-decoration: none;
