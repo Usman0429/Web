@@ -3,34 +3,32 @@ body{
     padding: 0%;
     margin: 0%;
 }
-.search{
-    padding-left: 1%;
-    padding-top: 1%;
-}
-.profile{
-    margin:1%;
-    width: 8%;
-    border-radius: 50%;
-    border-color: rgb(255, 255, 255);
-    border-width: 100%;
-    border-style:ridge
+.header{
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: space-evenly;
 }
 
-.nav, ul, li{
+.navm{
+    display:flex;
     list-style-type: none;
     position: relative;
     font-size: 130%;
+    justify-content:space-evenly;
 }
-.home{
-    text-decoration: none;
 
+
+.profile{
+    margin:20px;
+    width: 100px;
+    border-radius: 35%;
+    border-color: rgb(255, 255, 255);
+    border-width: 100%;
+    border-style:ridge;
+    justify-content: left;
+    display: flex;
 }
-.about{
+.home, .about, .products, .contact{
     text-decoration: none;
-}
-.products{
-    text-decoration: none;
-}
-.contact{
-    text-decoration: none;
+    padding-top: 60px;
+    color: aliceblue;
 }
