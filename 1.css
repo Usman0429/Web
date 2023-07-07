@@ -39,10 +39,23 @@ body{
 }
 
 .whatsapp a{
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    
 
 }
 
+.whatsapp a:hover,:focus{
+    color: rgb(0, 255, 0);
+    transition: all 1s ;
+}
+
 .email a{
+    color:rgb(0, 0, 0);
     text-decoration: none;
+}
+
+.email a:hover, :focus{
+    color: rgb(0, 255, 0);
+    transition: all 1s ;
 }
