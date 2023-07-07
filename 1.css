@@ -1,7 +1,14 @@
 body{
-    background-color: rgb(87, 87, 87);
+    background:linear-gradient(to left ,purple,#ff6600);
+    padding: 0%;
+    margin: 0%;
 }
-.preveiw{
-    text-align: center;
-    color: aliceblue;
+.search{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.nav, ul, li{
+    list-style-type: none;
+    
 }
